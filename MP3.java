@@ -2,6 +2,8 @@ package com.example.media;
 
 public class MP3 extends MediaFile implements Playable{
 
+    public MP3(){}
+
     public MP3(String type, int leanth, String  content) {
         super(type, leanth, content);
     }
