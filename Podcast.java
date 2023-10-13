@@ -1,6 +1,9 @@
 package com.example.media;
 
 public class Podcast  extends MediaFile implements Playable{
+
+    public Podcast (){}
+    
     public Podcast(String type, int leanth, String content) {
         super(type, leanth, content);
     }
